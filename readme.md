@@ -36,6 +36,7 @@ A placer dans /etc/ :
 	-  modules.conf # Activation I2C
 
 A placer dans /recalbox/share/system/:
+Modifier les paramètres Wifi!
 
 	- recalbox.conf # Activation et remapping des GPIO, configuration de l'affichage.
 
