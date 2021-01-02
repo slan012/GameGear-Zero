@@ -1,0 +1,22 @@
+#!/bin/bash
+case "$1" in
+start)
+echo "Starting retroarch menu control"
+/recalbox/scripts/retroarchmenu.py & &> /dev/null
+;;
+stop)
+echo "Stopping retroarch menu control"
+killall -9 retroarchmenu.py &> /dev/null
+;;
+restart)
+echo "Stopping retroarch menu control"
+killall -9 retroarchmenu.py &> /dev/null
+echo "Starting retroarch menu control"
+/recalbox/scripts/retroarchmenu.py & &> /dev/null
+;;
+*)
+echo "Usage: /etc/init.d/S99retroarchmenu {start|stop|restart}"
+exit 1
+;;
+esac
+exit 0

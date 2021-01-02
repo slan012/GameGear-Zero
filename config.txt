@@ -1,0 +1,50 @@
+#############################################################
+# Boot loader configuration                                 #
+# This file can be modified to your needs                   #
+#############################################################
+
+# uncomment if you get no picture on HDMI for a default "safe" mode
+#hdmi_safe=1                                                                                                                                                                                                 
+
+disable_overscan=0
+overscan_right=65
+
+
+
+# uncomment to force a specific HDMI mode (this will force VGA)
+hdmi_group=2
+hdmi_mode=4
+
+#display_rotate rotates the display clockwise on the screen (default=0) or flips the display.
+# rotate 180 degrees
+display_rotate=2        
+
+# Sound output. Set to 0 or comment for autodetect, 1 for DVI, 2 to force HDMI.
+#hdmi_drive=2
+
+config_hdmi_boost=0
+
+# force hdmi while the tv can take time before sending the signal on the hdmi output
+hdmi_force_hotplug=1
+
+# uncomment for composite PAL
+#sdtv_mode=2
+
+# uncomment for lirc-rpi
+#dtoverlay=lirc-rpi
+
+# total amount of GPU memory
+gpu_mem_256=128
+gpu_mem_512=256
+
+#Activate I2C
+dtparam=i2c1=on
+dtparam=i2c_arm=on
+
+###########################
+# do not remove this line !
+include recalbox-config.txt
+
+# custom config
+[all]
+overscan_scale=1

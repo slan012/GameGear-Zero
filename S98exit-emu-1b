@@ -1,0 +1,22 @@
+#!/bin/bash
+case "$1" in
+start)
+echo "Starting button"
+/recalbox/scripts/rpi-exit-emu-1b.py & &> /dev/null
+;;
+stop)
+echo "Stopping button"
+killall -9 rpi-exit-emu-1b.py &> /dev/null
+;;
+restart)
+echo "Stopping button"
+killall -9 rpi-exit-emu-1b.py &> /dev/null
+echo "Starting button"
+/recalbox/scripts/rpi-exit-emu-1b.py & &> /dev/null
+;;
+*)
+echo "Usage: /etc/init.d/S98exit-emu-1b {start|stop|restart}"
+exit 1
+;;
+esac
+exit 0

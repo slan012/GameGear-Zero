@@ -1,0 +1,22 @@
+#!/bin/bash
+case "$1" in
+start)
+echo "Starting battery monitoring"
+/recalbox/scripts/battery-monitoring.py & &> /dev/null
+;;
+stop)
+echo "Stopping battery monitoring"
+killall -9 battery-monitoring.py &> /dev/null
+;;
+restart)
+echo "Stopping battery monitoring"
+killall -9 battery-monitoring.py &> /dev/null
+echo "Starting battery monitoring"
+/recalbox/scripts/battery-monitoring.py & &> /dev/null
+;;
+*)
+echo "Usage: /etc/init.d/S32battery-monitoring {start|stop|restart}"
+exit 1
+;;
+esac
+exit 0

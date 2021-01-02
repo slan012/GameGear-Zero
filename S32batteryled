@@ -1,0 +1,22 @@
+#!/bin/bash
+case "$1" in
+start)
+echo "Starting battery led control"
+/recalbox/scripts/batteryled.py & &> /dev/null
+;;
+stop)
+echo "Stopping battery led control"
+killall -9 batteryled.py &> /dev/null
+;;
+restart)
+echo "Stopping battery led control"
+killall -9 batteryled.py &> /dev/null
+echo "Starting battery led control"
+/recalbox/scripts/batteryled.py & &> /dev/null
+;;
+*)
+echo "Usage: /etc/init.d/S32batteryled {start|stop|restart}"
+exit 1
+;;
+esac
+exit 0
