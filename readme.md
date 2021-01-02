@@ -1,5 +1,5 @@
 **************************************************************
-************   INSTALLATION DES FICHIERS *********************
+   INSTALLATION DES FICHIERS 
 **************************************************************
 
 IMPORTANT => Avant de copier/coller les différents fichiers : 
