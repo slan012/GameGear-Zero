@@ -1,3 +1,14 @@
+TRANSFORMATION D'UNE SEGA GAMEGEAR DE 1990 EN CONSOLE RETRO AVEC RECALBOX
+
+MATERIEL :
+	- Une Sega GameGear HS
+ 	- un Raspberry Pi Zero W
+  	- un écran LCD MPI3508
+   	- un convertisseur ADC ads1015
+    - un step up DC/DC MT3608
+    - un chargeur de batterie lithium TP4056
+    - une pile lithium 18650
+
 **************************************************************
    INSTALLATION DES FICHIERS 
 **************************************************************
