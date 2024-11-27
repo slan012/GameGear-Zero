@@ -2,6 +2,14 @@
 
 Ce projet est voué à transformer une Sega Game Gear de 1990 et en une console portable tournant sous Recalbox sur un Raspberry Pi Zero W.
 
+<div style="display: flex;">
+<img width="300px" src="photos/IMG_20210103_134321.jpg"/>
+<img width="300px" src="photos/gg03.jpg"/>
+<img width="300px" src="photos/IMG_20201129_095449.jpg"/>
+<img width="300px" src="photos/IMG_20201231_174538.jpg"/>
+<img width="300px" src="photos/IMG_20201231_174545.jpg"/>
+</div>
+
 MATERIEL :
 
 - Une Sega GameGear HS
