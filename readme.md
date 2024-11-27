@@ -1,6 +1,6 @@
 # Projet GameGear Zero
 
-Ce projet est voué à transformer une Sega Game Gear de 1990 et en une console portable tournant sous Recalbox sur un Raspberry Pi Zero W.
+Projet de transformation une Sega Game Gear de 1990 et en une console portable tournant sous Recalbox sur un Raspberry Pi Zero W.
 
 <div style="display: flex;">
 <img width="300px" src="photos/IMG_20210103_134321.jpg"/>
