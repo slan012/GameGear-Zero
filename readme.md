@@ -24,6 +24,8 @@ MATERIEL :
    INSTALLATION DES FICHIERS 
 **************************************************************
 
+Après installation de RecalBox : 
+
 IMPORTANT => Avant de copier/coller les différents fichiers : 
 
 ouvrir un terminal puis:  
